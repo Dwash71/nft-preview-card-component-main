@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 
 /* Global styles */
 :root {
@@ -104,24 +104,23 @@ img {
   --content-padding: 1.25rem;
   --content-spacing: 1rem;
 
-background: var(--very-dark-blue-card-bg);
-margin-bottom: 2rem;
-border-radius: 0.625rem;
+  background: var(--very-dark-blue-card-bg);
+  margin-bottom: 2rem;
+  border-radius: 0.625rem;
 
-padding: var(--content-padding);
-box-shadow: rgb(0, 3, 6) 0px 20px 30px -10px;
+  padding: var(--content-padding);
+  box-shadow: rgb(0, 3, 6) 0px 20px 30px -10px;
 }
 
-@media (min-width: 500px){
+@media (min-width: 500px) {
   .card {
     width: 400px;
   }
 }
 
 .card-img img {
- border-radius: 0.625rem;
- margin-bottom: 1rem;
-
+  border-radius: 0.625rem;
+  margin-bottom: 1rem;
 }
 
 .card-title {
@@ -130,9 +129,9 @@ box-shadow: rgb(0, 3, 6) 0px 20px 30px -10px;
 }
 
 .card-detail {
-font-size: var(--fs-p);
-color: var(--Soft-blue);
-margin-bottom: 1.5rem;
+  font-size: var(--fs-p);
+  color: var(--Soft-blue);
+  margin-bottom: 1.5rem;
 }
 .time-detail {
   display: flex;
@@ -143,10 +142,16 @@ margin-bottom: 1.5rem;
 
 .eth {
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.diamond {
+  width: 10px;
+  height: 20px;
 }
 
 .card-eth {
-  padding-left: .5rem;
+  padding-left: 0.5rem;
   color: var(--Cyan);
   font-weight: var(--fw-mid);
 }
@@ -158,7 +163,7 @@ margin-bottom: 1.5rem;
 }
 
 .clock {
-  padding-right: .5rem;
+  padding-right: 0.5rem;
 }
 
 .daysLeft {
@@ -183,10 +188,10 @@ margin-bottom: 1.5rem;
   border-radius: 1.5rem;
 }
 .name {
- margin-left: 1rem;
- color: var(--Soft-blue);
- letter-spacing: 1px;
- font-weight: var(--fw-normal);
+  margin-left: 1rem;
+  color: var(--Soft-blue);
+  letter-spacing: 1px;
+  font-weight: var(--fw-normal);
 }
 
 .cardName span {
